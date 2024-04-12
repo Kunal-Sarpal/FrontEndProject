@@ -4,7 +4,7 @@ import React from "react";
 function HeaderCard() {
   return (
     <div>
-      <div className="grid grid-cols-12 md:gap-x-10 mt-5 shadow-sm shadow-zinc-400 rounded-xl lg:p-10  sm: w-full md:w-full   sm:rounded-none p-2">
+      <div className="grid grid-cols-12 md:gap-x-10 mt-5 shadow-sm shadow-zinc-400 rounded-xl lg:p-10  sm: w-full md:w-full   sm:rounded-none p-2 overflow-hidden">
         <div className=" col-span-12 lg:col-span-6 h-[90vh] w-full  ">
           <div className="h-[70%] w-full md:rounded-3xl overflow-hidden rounded-none">
             <img
@@ -13,7 +13,7 @@ function HeaderCard() {
               alt=""
             />
           </div>
-          <div className="h-[30%] w-full">
+          <div className="h-[30%] w-full overflow-hidden">
             <div className="font-normal md:text-5xl mt-5 text-4xl">
               NADETTA COAT BEIGE
             </div>
@@ -51,7 +51,7 @@ function HeaderCard() {
                   <div className=" w-14  md:w-16  justify-center flex items-center px-2 py-1 border-[2px] bg-zinc-900 text-zinc-200 border-zinc-900 rounded-xl">
                     X
                   </div>
-                  <div className=" w-14 md:w-16  justify-center flex items-center px-2 py-1 border-[2px] border-zinc-400 rounded-xl">
+                  <div className=" w-14 md:w-16  justify-center  items-center px-2 py-1 border-[2px] border-zinc-400 rounded-xl hidden md:flex">
                     X
                   </div>
                 </div>
