@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='md:px-20 py-4'>
+    <div className='md:px-20 py-4 overflow-hidden'>
       <Navbar/>
       <HeaderCard/>
       <VideoBar/>
