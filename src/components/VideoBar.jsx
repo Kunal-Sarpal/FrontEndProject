@@ -1,5 +1,5 @@
 import React from "react";
-import video from "C:/Users/DELL/OneDrive - Lovely Professional University/Desktop/Frontend college project/src/VIdeo/kunal.mp4";
+import video from "../VIdeo/kunal.mp4";
 function VideoBar() {
   return (
     <div className="w-full h-screen  mt-16 shadow-sm shadow-zinc-400 rounded-xl" >
