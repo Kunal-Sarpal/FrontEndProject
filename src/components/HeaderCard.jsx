@@ -4,7 +4,7 @@ import React from "react";
 function HeaderCard() {
   return (
     <div>
-      <div className="grid grid-cols-12 md:gap-x-10 mt-5 shadow-sm shadow-zinc-400 rounded-xl lg:p-10  sm: w-full md:w-full   sm:rounded-none p-2 overflow-hidden">
+      <div className="grid grid-cols-12 md:gap-x-10  rounded-xl py-10  sm: w-full md:w-full   sm:rounded-none overflow-hidden bg-zinc-200 px-14">
         <div className=" col-span-12 lg:col-span-6 h-[90vh] w-full  ">
           <div className="h-[70%] w-full md:rounded-3xl overflow-hidden rounded-none">
             <img

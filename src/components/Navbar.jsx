@@ -85,7 +85,7 @@ function Navbar() {
   };
 
   return (
-    <div className="relative">
+    <div className="relative px-14">
       <div className="w-full px-3 md:px-0">
         <div className="flex justify-between py-2 items-center">
           <div className="gap-8 justify-center items-center hidden md:flex">
@@ -98,7 +98,7 @@ function Navbar() {
                   : "cursor-pointer relative"
               }
             >
-              <div className="text-sm font-normal">SHOP</div>
+              <div className="text-sm font-semibold">SHOP</div>
               {isHovered === "shop" && (
                 <div className="absolute top-full left-0 bg-white w-[60vw] h-fit border  border-gray-300 shadow-lg rounded-md p-4 grid grid-cols-4 gap-2 duration-200">
                   {categories.map((category, index) => (
@@ -129,7 +129,7 @@ function Navbar() {
               onMouseEnter={() => setShowPhotos(true)}
               onMouseLeave={() => setShowPhotos(false)}
             >
-              <div className="text-sm font-normal">STUDIO</div>
+              <div className="text-sm font-semibold">STUDIO</div>
               {showPhotos && (
                 <div className="absolute top-full left-0 bg-white border border-gray-300 w-96 h-96 shadow-lg rounded-md p-2 grid duration-200">
                   <div className="text-zinc-500">Explore New Fashion 
@@ -154,7 +154,7 @@ function Navbar() {
                   : "cursor-pointer relative"
               }
             >
-             <div className="text-sm font-normal">ABOUT</div>
+             <div className="text-sm font-semibold">ABOUT</div>
               {isHovered === "about" && (
                 <div className="absolute top-full left-0 bg-white w-64 h-64 border border-gray-300 shadow-lg rounded-md p-4">
                   <div>About Us</div>
@@ -173,7 +173,7 @@ function Navbar() {
                   : "cursor-pointer relative"
               }
             >
-              <div className="text-sm font-normal">CONTACT</div>
+              <div className="text-sm font-semibold">CONTACT</div>
               {isHovered === "contact" && (
                 <div className="absolute top-full left-0 bg-white w-64 h-64 border border-gray-300 shadow-lg rounded-md p-4">
                   <h1 className="text-red-500 text-xl font-semibold">{`Kunal Production's`}</h1>
@@ -193,8 +193,11 @@ function Navbar() {
           </div>
           <div className="flex gap-6 justify-center items-center">
           
-            <div className="text-xl text-zinc-500">
+            <div className="text-xl text-zinc-500 border-2 border-zinc-400 w-44 rounded-full px-2 py-1 hover:border-2 hover:border-blue-300">
+               <div className="flex justify-between ">
+<div className="text-xs">Search..</div>
               <IoSearch />
+               </div>
             </div>
             <div className="text-lg text-zinc-500">
               <FaRegBell />
@@ -211,7 +214,7 @@ function Navbar() {
               className="w-8 h-8 border-[1px] border-black rounded-full"
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
-            ></div>
+            ><img className="object-cover w-full h-full rounded-full"src="https://images.unsplash.com/photo-1625595234473-c00c86c73353?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D " alt="" /></div>
           </div>
         </div>
       </div>

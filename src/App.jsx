@@ -4,12 +4,14 @@ import HeaderCard from './components/HeaderCard'
 import VideoBar from './components/VideoBar'
 import Products from './components/Products'
 import Footer from './components/Footer'
+import Marquee from 'react-fast-marquee'
 
 function App() {
   return (
-    <div className='md:px-20 py-4 overflow-hidden'>
+    <div className=' overflow-hidden bg-zinc-200'>
       <Navbar/>
       <HeaderCard/>
+     
       <VideoBar/>
       <Products/>
       <Footer/>

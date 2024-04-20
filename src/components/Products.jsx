@@ -20,7 +20,7 @@ function Products() {
   }, []); // Empty dependency array ensures this effect runs only once
 
   return (
-    <div className="flex flex-wrap gap-2  mt-16  justify-center z-40 relative bg-zinc-100 md:shadow-sm shadow-zinc-400  rounded-xl">
+    <div className="flex flex-wrap gap-2  mt-16  justify-center z-40 relative bg-zinc-200 md:shadow-sm   rounded-xl">
       <div className="w-full  h-48 ">
         <Marquee className="h-full uppercase text-5xl shadow-none shadow-black">
           <div className="text-center bg-white rounded-lg p-8 shadow-lg w-52  md:w-72 hover:scale-105 transition-all duration-300">
@@ -77,9 +77,9 @@ function Products() {
       </div>
 
       {products.map((item, index) => (
-        <div
+        <div onClick
           key={index}
-          className=" md:w-72 w-80 transition-all duration-150  bg-zinc-200 relative h-[50vh]  hover:shadow hover:shadow-black mb-10"
+          className=" md:w-72 w-80  transition-all duration-150  bg-zinc-200 relative h-[50vh]  hover:shadow-lg hover:shadow-zinc-500 mb-10 hover:scale-105"
         >
           <a
             className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl"
@@ -129,9 +129,9 @@ function Products() {
             </div>
             <a
               href="#"
-              className=" absolute flex items-center justify-center  px-5 py-2.5 text-center text-sm font-medium  hover:bg-black hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 bottom-3 bg-white text-zinc-900 rounded-full w-3/4 left-9 transition-all duration-200"
+              className=" absolute shadow-xl shadow-zinc-400 flex items-center justify-center  px-5 py-2.5 text-center text-sm font-medium  hover:bg-black hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 bottom-[-20px] bg-white text-zinc-900 rounded-full w-3/4 left-9 transition-all duration-200"
             >
-              <svg
+              <svg  
                 xmlns="http://www.w3.org/2000/svg"
                 className="mr-2 h-6 w-6"
                 fill="none"
