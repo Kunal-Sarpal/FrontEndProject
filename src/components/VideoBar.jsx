@@ -4,27 +4,27 @@ import Marquee from "react-fast-marquee";
 function VideoBar() {
   return (
     <div className="w-full h-screen mt-24 rounded-xl bg-zinc-200" >
-       <div className='w-full h-10 flex justify-center text-xl items-center p-2  '>
+       <div className='w-full h-10 flex justify-center text-xl items-center p-2 m-10   '>
        <Marquee >
         <div className="flex justify-center w-full h-16 bg-zinc-200">
 
 
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://i.pinimg.com/736x/8d/2b/f1/8d2bf1294ab0a9db2c6423e28761431b.jpg"
           alt="Brand 1"
           style={{ width: "100px", marginRight: "20px" }}
         />
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://images.unsplash.com/photo-1570882280426-df8ac5ccd672?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Brand 2"
           style={{ width: "100px", marginRight: "20px" }}
         />
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://images.unsplash.com/photo-1555274175-75f4056dfd05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Brand 3"
           style={{ width: "100px", marginRight: "20px" }}
         />
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://i.pinimg.com/736x/11/ad/43/11ad434b5767b27793ec2b8b3f829da4.jpg"
           alt="Brand 3"
           style={{ width: "100px", marginRight: "20px" }}
@@ -33,22 +33,22 @@ function VideoBar() {
         <div className="flex justify-center w-full h-16">
 
 
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://i.pinimg.com/736x/8d/2b/f1/8d2bf1294ab0a9db2c6423e28761431b.jpg"
           alt="Brand 1"
           style={{ width: "100px", marginRight: "20px" }}
         />
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://images.unsplash.com/photo-1570882280426-df8ac5ccd672?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Brand 2"
           style={{ width: "100px", marginRight: "20px" }}
         />
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://images.unsplash.com/photo-1555274175-75f4056dfd05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Brand 3"
           style={{ width: "100px", marginRight: "20px" }}
         />
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://i.pinimg.com/736x/11/ad/43/11ad434b5767b27793ec2b8b3f829da4.jpg"
           alt="Brand 3"
           style={{ width: "100px", marginRight: "20px" }}
@@ -57,22 +57,37 @@ function VideoBar() {
         <div className="flex justify-center w-full h-16 bg-zinc-200">
 
 
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://i.pinimg.com/736x/8d/2b/f1/8d2bf1294ab0a9db2c6423e28761431b.jpg"
           alt="Brand 1"
           style={{ width: "100px", marginRight: "20px" }}
         />
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://images.unsplash.com/photo-1570882280426-df8ac5ccd672?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Brand 2"
           style={{ width: "100px", marginRight: "20px" }}
         />
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://images.unsplash.com/photo-1555274175-75f4056dfd05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Brand 3"
           style={{ width: "100px", marginRight: "20px" }}
         />
-        <img className="object-cover  shadow-md rounded-lg shadow-zinc-400"
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
+          src="https://i.pinimg.com/736x/11/ad/43/11ad434b5767b27793ec2b8b3f829da4.jpg"
+          alt="Brand 3"
+          style={{ width: "100px", marginRight: "20px" }}
+        />
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
+          src="https://images.unsplash.com/photo-1570882280426-df8ac5ccd672?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Brand 2"
+          style={{ width: "100px", marginRight: "20px" }}
+        />
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
+          src="https://images.unsplash.com/photo-1555274175-75f4056dfd05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Brand 3"
+          style={{ width: "100px", marginRight: "20px" }}
+        />
+        <img className="object-cover  shadow-md rounded- shadow-zinc-400"
           src="https://i.pinimg.com/736x/11/ad/43/11ad434b5767b27793ec2b8b3f829da4.jpg"
           alt="Brand 3"
           style={{ width: "100px", marginRight: "20px" }}

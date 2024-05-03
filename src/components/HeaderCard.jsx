@@ -111,13 +111,3 @@ function HeaderCard() {
 }
 
 export default HeaderCard;
-// <div className="col-span-6 border-2 border-black">
-//           <div className="h-[70%] border-2 ">
-//             <div className="flex gap-3 h-[40%]">
-//               <div className="w-full"><img className="w-full h-full object-cover  rounded-2xl object-left-bottom" src="https://images.unsplash.com/photo-1605908502724-9093a79a1b39?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /></div>
-//               <div className="w-full"></div>
-//             </div>
-//             <div className="w-full mt-3 h-[19%] border-2 "> </div>
-//           </div>
-//           <div className="h-[30%] border-2 border-black"></div>
-//         </div>

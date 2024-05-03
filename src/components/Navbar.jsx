@@ -85,7 +85,7 @@ function Navbar() {
   };
 
   return (
-    <div className="relative px-14">
+    <div className="relative px-14 flex justify-center items-center border-b-2 mx-20 border-zinc-400 ">
       <div className="w-full px-3 md:px-0">
         <div className="flex justify-between py-2 items-center">
           <div className="gap-8 justify-center items-center hidden md:flex">
@@ -211,7 +211,7 @@ function Navbar() {
               </button>
             </div>
             <div
-              className="w-8 h-8 border-[1px] border-black rounded-full"
+              className="w-8 h-8 border-[1px]  rounded-full"
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             ><img className="object-cover w-full h-full rounded-full"src="https://images.unsplash.com/photo-1625595234473-c00c86c73353?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D " alt="" /></div>
